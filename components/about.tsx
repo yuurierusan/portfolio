@@ -1,6 +1,6 @@
-import { HtmlAttributes } from 'react'
+import { HTMLAttributes } from 'react'
 
-interface DivProps extends HtmlAttributes<HTMLDivElement> {
+interface DivProps extends HTMLAttributes<HTMLDivElement> {
     name: string
 }
 
