@@ -23,11 +23,9 @@ const Landing = () => {
                         <h1 className='typewriter bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-md font-extrabold text-transparent '>
                             {currentText}
                         </h1>
-
                         <p className='typewriter mx-auto mt-4 max-w-xl text-sm text-white'>
                             {currentText2}
                         </p>
-
                         <div className='mt-8 flex flex-wrap justify-center gap-4'></div>
                     </div>
                     <div className='flex justify-center'>

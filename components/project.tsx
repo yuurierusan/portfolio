@@ -49,26 +49,26 @@ const Projects = () => {
                     <p className='py-6'>Check out some of my work right here</p>
                 </div>
 
-                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4'>
                     {projects.map(({ id, name, src, href, href2 }) => (
                         <div
                             key={id}
                             className='shadow-md shadow-gray-600 rounded-lg'>
-                            <p className=' justify-center'>{name}</p>
+                            <p className='justify-center'>{name}</p>
                             <img
                                 src={src}
                                 alt=''
-                                className='w-96 h-52 rounded-md duration-200 hover:scale-105'
+                                className='w-full h-52 object-cover rounded-t-md'
                             />
-                            <div className='flex items-center justify-center'>
+                            <div className='flex items-center justify-center flex-wrap gap-4 p-4'>
                                 <a
                                     href={href}
-                                    className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
+                                    className='w-full md:w-auto flex-1 px-4 py-2 rounded-md text-center bg-blue-500 hover:bg-blue-600 text-white duration-200 hover:scale-105'>
                                     Code
                                 </a>
                                 <a
                                     href={href2}
-                                    className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
+                                    className='w-full md:w-auto flex-1 px-4 py-2 rounded-md text-center bg-blue-500 hover:bg-blue-600 text-white duration-200 hover:scale-105'>
                                     Demo
                                 </a>
                             </div>
