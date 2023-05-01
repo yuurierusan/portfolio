@@ -1,3 +1,4 @@
+import Image from 'next/image'
 const Experience = () => {
     type Technology = {
         id: number
@@ -71,7 +72,7 @@ const Experience = () => {
                         Experience
                     </p>
                     <p className='py-6'>
-                        These are the technologies I've worked with
+                        These are the technologies I&apos;ve worked with
                     </p>
                 </div>
                 <div className='w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-8 text-center py-4 md:py-8 px-4 md:px-12'>
@@ -79,7 +80,7 @@ const Experience = () => {
                         <div
                             key={id}
                             className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
-                            <img
+                            <Image
                                 src={src}
                                 alt=''
                                 className='w-16 md:w-20 mx-auto'
