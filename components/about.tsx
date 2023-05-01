@@ -9,28 +9,29 @@ const About = () => {
                 </div>
 
                 <p className='text-sm md:text-md mt-8 md:mt-20 text-center'>
-                    Hey there! I'm a versatile content creator who thrives in
-                    fast-paced, deadline-driven environments. I'm a people
-                    person with strong communication skills, and I love working
-                    with teams to coordinate production. When it comes to
-                    traditional and digital audio and video production, I'm your
-                    go-to guy! I'm skilled in using Adobe CC, Microsoft Office,
-                    FCP X, Da-Vinci Resolve, and handling cameras & lights. I'm
-                    also a tech-savvy individual who is comfortable working with
-                    different computer environments such as Windows, Macintosh,
-                    and Linux.
+                    Hey there! I&apos;m a versatile content creator who thrives
+                    in fast-paced, deadline-driven environments. I&apos;m a
+                    people person with strong communication skills, and I love
+                    working with teams to coordinate production. When it comes
+                    to traditional and digital audio and video production,
+                    I&apos;m your go-to guy! I&apos;m skilled in using Adobe CC,
+                    Microsoft Office, FCP X, Da-Vinci Resolve, and handling
+                    cameras & lights. I&apos;m also a tech-savvy individual who
+                    is comfortable working with different computer environments
+                    such as Windows, Macintosh, and Linux.
                 </p>
 
                 <br />
 
                 <p className='text-sm md:text-md mt-8 md:mt-20 text-center'>
-                    In addition to creating content, I'm actively expanding my
-                    knowledge in software development. I'm currently learning
-                    JavaScript, Python, React, Flask, and Node through
+                    In addition to creating content, I&apos;m actively expanding
+                    my knowledge in software development. I&apos;m currently
+                    learning JavaScript, Python, React, Flask, and Node through
                     expert-led instruction. Learning new technologies hands-on
-                    is my jam! And when I'm not creating content or coding, you
-                    can find me producing music or playing games - Let's connect
-                    and explore our creative passions together!
+                    is my jam! And when I&apos;m not creating content or coding,
+                    you can find me producing music or playing games -
+                    Let&apos;s connect and explore our creative passions
+                    together!
                 </p>
             </div>
         </div>
