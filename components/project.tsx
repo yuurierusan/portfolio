@@ -38,9 +38,7 @@ const Projects = () => {
     ]
 
     return (
-        <div
-            name='projects'
-            className='bg-gradient-to-b from-black to-gray-800 w-full text-white'>
+        <div className='bg-gradient-to-b from-black to-gray-800 w-full text-white'>
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-center'>
                 <div className='py-8'>
                     <p className='text-3xl font-bold inline border-b-4 border-gray-500'>
