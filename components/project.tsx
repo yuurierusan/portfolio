@@ -54,7 +54,7 @@ const Projects = () => {
                             key={id}
                             className='shadow-md shadow-gray-600 rounded-lg'>
                             <p className='justify-center'>{name}</p>
-                            <img
+                            <Image
                                 src={src}
                                 alt=''
                                 className='w-full h-52 object-cover rounded-t-md'
