@@ -1,9 +1,3 @@
-import { HTMLAttributes } from 'react'
-
-interface DivProps extends HTMLAttributes<HTMLDivElement> {
-    name: string
-}
-
 const About = () => {
     return (
         <div

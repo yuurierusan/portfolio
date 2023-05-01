@@ -1,9 +1,3 @@
-import html from '../assets/html.png'
-import css from '../assets/css.png'
-import javascript from '../assets/javascript.png'
-import reactImage from '../assets/react.png'
-import github from '../assets/github.png'
-
 const Experience = () => {
     type Technology = {
         id: number
@@ -15,37 +9,37 @@ const Experience = () => {
     const techs: Technology[] = [
         {
             id: 1,
-            src: '../assets/html.png',
+            src: 'https://assets.stickpng.com/images/5847f5bdcef1014c0b5e489c.png',
             title: 'HTML',
             style: 'shadow-orange-500',
         },
         {
             id: 2,
-            src: '../assets/css.png',
+            src: 'https://assets.stickpng.com/thumbs/5847f265cef1014c0b5e4868.png',
             title: 'CSS',
             style: 'shadow-blue-500',
         },
         {
             id: 3,
-            src: '../assets/javascript.png',
+            src: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png',
             title: 'JavaScript',
             style: 'shadow-yellow-500',
         },
         {
             id: 4,
-            src: '../assets/react.png',
+            src: 'https://assets.stickpng.com/thumbs/584830f5cef1014c0b5e4aa1.png',
             title: 'React',
             style: 'shadow-blue-600',
         },
         {
             id: 5,
-            src: '../assets/tailwind.png',
+            src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png',
             title: 'Tailwind',
             style: 'shadow-sky-400',
         },
         {
             id: 8,
-            src: '../assets/github.png',
+            src: 'https://cdn-icons-png.flaticon.com/512/25/25231.png',
             title: 'GitHub',
             style: 'shadow-gray-400',
         },
@@ -67,22 +61,12 @@ const Experience = () => {
             title: '.NET',
             style: 'shadow-blue-500',
         },
-        {
-            id: 12,
-            src: 'https://w7.pngwing.com/pngs/545/451/png-transparent-node-js-express-js-javascript-solution-stack-web-application-others-angle-text-rectangle-thumbnail.png',
-            title: 'Express',
-            style: 'shadow-gray-500',
-        },
-        {
-            id: 13,
-            src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1200px-Figma-logo.svg.png',
-            title: 'Figma',
-            style: 'shadow-orange-500',
-        },
     ]
 
     return (
-        <div className='bg-gradient-to-b from-gray-800 to-black w-full h-screen'>
+        <div
+            name='experience'
+            className='bg-gradient-to-b from-gray-800 to-black w-full h-screen'>
             <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white text-center'>
                 <div>
                     <p className='text-3xl font-bold border-b-4 border-gray-500 p-2 inline'>
