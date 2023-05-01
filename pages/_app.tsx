@@ -1,6 +1,6 @@
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
-import About from '../components/about'
+import GetToKnowMe from '../components/about'
 import Contact from '../components/contact'
 import Experience from '../components/experience'
 import Landing from '../components/landing'
@@ -19,7 +19,7 @@ const App = ({ Component, pageProps }: AppProps) => {
                 <Landing />
             </div>
             <div>
-                <About />
+                <GetToKnowMe />
             </div>
             <div>
                 <Projects />

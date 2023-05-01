@@ -1,6 +1,12 @@
-const About = () => {
+interface CustomDivProps extends React.HTMLAttributes<HTMLDivElement> {
+    name: string
+}
+
+const GetToKnowMe = () => {
     return (
-        <div className='w-full min-h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
+        <div
+            className='w-full min-h-screen bg-gradient-to-b from-gray-800 to-black text-white'
+            id='about'>
             <div className='max-w-screen-md p-4 mx-auto flex flex-col justify-center min-h-full'>
                 <div className='pb-8 text-center'>
                     <p className='text-2xl md:text-3xl font-bold inline border-b-4 border-gray-500'>
@@ -38,4 +44,4 @@ const About = () => {
     )
 }
 
-export default About
+export default GetToKnowMe
