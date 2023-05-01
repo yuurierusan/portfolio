@@ -57,6 +57,8 @@ const Projects = () => {
                             <Image
                                 src={src}
                                 alt=''
+                                height={208}
+                                width={100}
                                 className='w-full h-52 object-cover rounded-t-md'
                             />
                             <div className='flex items-center justify-center flex-wrap gap-4 p-4'>
